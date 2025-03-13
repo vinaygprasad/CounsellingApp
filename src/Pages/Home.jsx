@@ -96,7 +96,7 @@ export const Home = () => {
     {["English", "മലയാളം", "தமிழ்"].map((language, index) => (
       <div
         key={index}
-        className="bg-white text-xl font-semibold px-8 py-6 rounded-lg shadow-md text-center"
+        className="text-xl font-semibold px-8 py-6 text-center"
       >
         {language}
       </div>
